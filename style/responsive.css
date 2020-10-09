@@ -1,0 +1,37 @@
+@media screen and (max-width: 767px){
+    #topbar{
+        width: 100%;
+        height: auto;
+        background-image: url('../asset/image/header/logo.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        padding: 0;
+    }
+
+    #topbar .row{
+        visibility: hidden;
+    }
+
+    #header .promo-card{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #header .farmskins #logo{
+        display: none;
+    }
+
+    #main{
+        width: 100%;
+        height: auto;
+        background-image: url('../asset/image/main/background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #footer .bottom-footer{
+        text-align: center;
+    }
+}
